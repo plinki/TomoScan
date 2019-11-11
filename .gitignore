@@ -1,0 +1,9 @@
+*.pem
+.idea
+.vscode/
+db/dev/*
+db/prod/*
+.*sw*
+.eslintcache
+server/config/local.json
+.DS_Store
