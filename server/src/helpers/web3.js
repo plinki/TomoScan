@@ -19,7 +19,7 @@ let Web3Util = {
     reconnectWeb3Socket: async () => {
         logger.info('Websocket closed/errored')
         logger.info('Attempting to reconnect...')
-        let provider = await new Web3.providers.WebsocketProvider(config.get('WEB3_WS_URI'))
+        let provider = await new Web3.providers.WebsocketProvider('ws://127.0.0.1:1546')
         Web3Socket.setProvider(provider)
 
         provider.on('connect', function () {

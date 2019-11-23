@@ -5,6 +5,7 @@ const db = require('./models')
 const events = require('events')
 const logger = require('./helpers/logger')
 const TransactionHelper = require('./helpers/transaction')
+const Web3 = require('web3')
 
 // fix warning max listener
 events.EventEmitter.defaultMaxListeners = 1000
@@ -27,7 +28,8 @@ let processTransaction = async (hash) => {
 }
 
 let watch = async () => {
-    let web3 = await Web3Util.getWeb3Socket()
+    // let web3 = await Web3Util.getWeb3Socket()
+    var web3 = new Web3(new Web3.providers.WebsocketProvider('ws://157.245.135.143:1546'))
     logger.info('start subscribe tx pending')
 
     await web3.eth.subscribe('pendingTransactions', async (error, txHash) => {
