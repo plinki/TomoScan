@@ -17,9 +17,18 @@ $global-font-size: 18px;
 
 /* Colors
    ========================================================================== */
+
+// Chancoin colors: (theres a couple more i think but meh)
+// #60706C;
+// #B5CC98;
+// #88B580;
+// #6D8775;
+// #E8E5C0;
+
+$color-navbar-bg: #E8E5C0;
 $color-body-bg: #f8f8fa;
-$color-primary: #34a1ff;
-$color-primary-hover: darker($color-primary);
+$color-primary: #B5CC98;
+$color-primary-hover: #88B580;
 $color-text: #868f9b;
 $color-text-2: #2b2f36;
 $color-purple: #b875f2;
