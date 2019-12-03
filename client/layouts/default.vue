@@ -2,7 +2,6 @@
     <section>
         <b-navbar
             toggleable="lg"
-            variant="white"
             class="tomo-nav">
             <div class="container container--wide tomo-nav__wrapper">
                 <b-navbar-brand :to="{name: 'index'}">

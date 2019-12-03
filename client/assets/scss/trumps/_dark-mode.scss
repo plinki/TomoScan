@@ -1,8 +1,8 @@
 /* Dark Mode */
-$color-primary-dark: #30ddd8;
-$color-text-dark: #7773bd;
-$color-text-dark-alt: #7573a6;
-$color-text-white-dark: #cfcde1;
+$color-primary-dark: #B5CC98;
+$color-text-dark: #f8f8fa;
+$color-text-dark-alt: #E8E5C0;
+$color-text-white-dark: #868f9b;
 
 // Global Settings
 body.dark-mode {
@@ -13,7 +13,7 @@ body.dark-mode {
         color: $color-primary-dark;
 
         &:hover {
-            color: #36fcf6;
+            color: #60706C;
         }
     }
 
@@ -24,7 +24,7 @@ body.dark-mode {
     .text-secondary {
         color: $color-text-dark !important;
     }
-    
+
     .text-muted {
         color: #505078 !important;
     }
@@ -37,24 +37,24 @@ body.dark-mode .nuxt-progress {
 
 // Buttons
 body.dark-mode {
-    
+
     .btn-primary.btn-primary {
-        border-color: #678be0;
-        background-color: #678be0;
-      
+        border-color: #f8f8fa;
+        background-color: #88B580;
+
         &:hover {
-            border-color: #739dff;
-            background-color: #739dff;
+            border-color: #E8E5C0;
+            background-color: #B5CC98;
         }
     }
-    
+
     .btn-secondary.btn-secondary {
-        border-color: #7573a8;
-        background-color: #7573a8;
-      
+        border-color: #E8E5C0;
+        background-color: #B5CC98;
+
         &:hover {
-            border-color: #5b5a88;
-            background-color: #5b5a88;
+            border-color: #B5CC98;
+            background-color: #60706C;
         }
     }
 }
@@ -63,12 +63,12 @@ body.dark-mode {
 body.dark-mode {
 
     .form-control {
-        color: #6a8ae8;
+        color: #B5CC98;
         border-color: #323251;
         background-color: #323251;
 
         &:focus {
-            color: #6a8ae8;
+            color: #60706C;
             border-color: #2e2e4b;
             background-color: #2e2e4b;
         }
@@ -157,7 +157,7 @@ body.dark-mode .tomo-nav {
 
 // Search Form
 body.dark-mode .search-form {
-    
+
     .form-control.search-form__input {
 
         &::placeholder {
@@ -184,7 +184,7 @@ body.dark-mode .breadcrumb.tomo-breadcrumb {
 
 // Table
 body.dark-mode .tomo-table {
-    
+
     thead tr {
         color: $color-text-dark;
     }
@@ -203,7 +203,7 @@ body.dark-mode .tomo-table {
     }
 
     .tm-arrow-right.text-success {
-        color: #6589e3 !important;
+        color: #B5CC98 !important;
     }
 }
 
@@ -250,17 +250,17 @@ body.dark-mode .tomo-footer  {
         color: $color-text-dark;
 
         a {
-            color: #6a8ae8;
+            color: #B5CC98;
         }
 
         a:hover {
             color: $color-text-white-dark;
         }
     }
-    
+
     &__social i {
         color: $color-text-dark-alt;
-        
+
         &:hover {
             color: $color-text-white-dark;
         }
@@ -272,7 +272,7 @@ body.dark-mode .tomo-footer  {
 body.dark-mode .tomo-modal {
 
     .modal-header .close {
-        color: #7573a8;
+        color: #88B580;
     }
 
     .modal-title {
@@ -392,15 +392,15 @@ body.dark-mode {
     .bs-tooltip-right .arrow:before {
         border-right-color: #aca9C4;
     }
-    
+
     .bs-tooltip-left .arrow:before {
         border-left-color: #aca9C4;
     }
-    
+
     .bs-tooltip-bottom .arrow:before {
         border-bottom-color: #aca9C4;
     }
-    
+
     .bs-tooltip-top .arrow:before {
         border-top-color: #aca9C4;
     }
@@ -467,7 +467,7 @@ body.dark-mode .vue-codemirror {
     span.cm-attribute,
     span.cm-quote,
     span.cm-hr,
-    span.cm-link { 
+    span.cm-link {
         color: #ffcc99;
     }
 
@@ -480,15 +480,15 @@ body.dark-mode .vue-codemirror {
     span.cm-negative {
         color: #e09142;
     }
-    
+
     span.cm-string {
         color: #ffb870;
     }
-    
+
     span.cm-operator {
         color: #ffad5c;
     }
-    
+
     span.cm-positive {
         color: #6a51e6;
     }
@@ -523,23 +523,23 @@ body.dark-mode .vue-codemirror {
     span.cm-header {
         font-weight: normal;
     }
-    
+
     .CodeMirror-matchingbracket {
         text-decoration: underline;
         color: #eeebff !important;
-    } 
+    }
 }
 
 // Pagination
 body.dark-mode .tomo-pagination {
-    
+
     .page-item {
 
         &.active .page-link {
             color: $color-text-white-dark;
             background-color: #373658;
         }
-    
+
         &.disabled:not([role="separator"]) .page-link {
             background-color: #373658;
         }
@@ -562,7 +562,7 @@ body.dark-mode .block-breadcrumb {
     a {
         color: $color-text-dark;
     }
-  
+
     &__prev,
     &__next {
         &:hover,
@@ -576,7 +576,7 @@ body.dark-mode .block-breadcrumb {
 body.dark-mode .code-actions .btn {
     color: #fff;
     border-color: #678be0;
-    background-color: #678be0; 
+    background-color: #678be0;
 }
 
 // Token Info
