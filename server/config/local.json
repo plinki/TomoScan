@@ -10,8 +10,8 @@
     "logs": {
         "level": "debug"
     },
-    "WEB3_URI": "http://157.245.135.143:1545",
-    "WEB3_WS_URI": "ws://157.245.135.143:1546",
+    "WEB3_URI": "http://176.9.251.132:1545",
+    "WEB3_WS_URI": "ws://176.9.251.132:1546",
     "DEBUG_QUERY": false,
     "BASE_UNIT": "CHAN",
     "PORT": 3333,
@@ -20,9 +20,9 @@
     "APP_SECRET": "",
     "SENDGRID_API_KEY": "",
     "SENDER_EMAIL": "contact@tomochain.com",
-    "BASE_URL": "https://localhost:3000/",
-    "CLIENT_URL": "http://localhost:3000/",
-    "TOMOMASTER_API_URL": "http://167.172.138.91:3001",
+    "BASE_URL": "https://176.9.251.132:3000/",
+    "CLIENT_URL": "http://176.9.251.132:3000/",
+    "TOMOMASTER_API_URL": "http://176.9.251.133:3001",
     "BLOCK_PER_EPOCH": 900,
     "REWARD": 250,
     "MASTER_NODE_REWARD_PERCENT": 40,
