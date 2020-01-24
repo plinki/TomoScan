@@ -208,37 +208,23 @@
                         <ul class="list-inline tomo-footer__social">
                             <li class="list-inline-item">
                                 <a
-                                    href="https://t.me/tomochain"
+                                    href="https://discord.gg/wCA5wN5/"
                                     target="_blank">
-                                    <i class="fa fa-telegram"/>
+                                    <i class="fa fa-comment"/>
                                 </a>
                             </li>
                             <li class="list-inline-item">
                                 <a
-                                    href="https://www.facebook.com/tomochainofficial"
-                                    target="_blank">
-                                    <i class="fa fa-facebook"/>
-                                </a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a
-                                    href="https://twitter.com/TomoChainANN"
+                                    href="https://twitter.com/chancoindev/"
                                     target="_blank">
                                     <i class="fa fa-twitter"/>
                                 </a>
                             </li>
                             <li class="list-inline-item">
                                 <a
-                                    href="https://github.com/tomochain/"
+                                    href="https://github.com/Chancoin-core/"
                                     target="_blank">
                                     <i class="fa fa-github"/>
-                                </a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a
-                                    href="https://www.reddit.com/r/Tomochain/"
-                                    target="_blank">
-                                    <i class="fa fa-reddit"/>
                                 </a>
                             </li>
                         </ul>
