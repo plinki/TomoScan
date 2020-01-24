@@ -53,12 +53,12 @@
                         <b-nav-item-dropdown
                             :class="(isTokens || isTokenTxs) ? 'active' : ''"
                             text="Tokens">
-                            <b-dropdown-item :to="{name: 'tokens-trc20'}">TRC20 Tokens</b-dropdown-item>
-                            <b-dropdown-item :to="{name: 'tokentxs'}">TRC20 Transfers</b-dropdown-item>
-                            <b-dropdown-item :to="{name: 'tokens-trc21'}">TRC21 Tokens</b-dropdown-item>
-                            <b-dropdown-item :to="{name: 'tokentxs-trc21'}">TRC21 Transfers</b-dropdown-item>
-                            <b-dropdown-item :to="{name: 'tokens-nft'}">TRC721 Tokens</b-dropdown-item>
-                            <b-dropdown-item :to="{name: 'tokentxs-nft'}">TRC721 Transfers</b-dropdown-item>
+                            <b-dropdown-item :to="{name: 'tokens-trc20'}">CRC20 Tokens</b-dropdown-item>
+                            <b-dropdown-item :to="{name: 'tokentxs'}">CRC20 Transfers</b-dropdown-item>
+                            <b-dropdown-item :to="{name: 'tokens-trc21'}">CRC21 Tokens</b-dropdown-item>
+                            <b-dropdown-item :to="{name: 'tokentxs-trc21'}">CRC21 Transfers</b-dropdown-item>
+                            <b-dropdown-item :to="{name: 'tokens-nft'}">CRC721 Tokens</b-dropdown-item>
+                            <b-dropdown-item :to="{name: 'tokentxs-nft'}">CRC721 Transfers</b-dropdown-item>
                         </b-nav-item-dropdown>
                         <b-nav-item-dropdown
                             text="Blocks">
@@ -193,12 +193,12 @@
                     <b-col
                         md="6"
                         class="tomo-footer__copyright">
-                        <p>TomoScan {{ (new Date()).getFullYear() }} - <a
+                        <p>ChanScan {{ (new Date()).getFullYear() }} - <a
                             :href="`https://github.com/tomochain/tomoscan/releases/tag/v${version}`">
                             v{{ version }}</a>
 
                             <code class="text-muted copyright__code">
-                                TomoChain/stable/linux-amd64/golang
+                                Chancoin/stable/linux-amd64/golang
                             </code>
                         </p>
                     </b-col>
