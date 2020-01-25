@@ -86,8 +86,8 @@ export default {
     mounted () {
         // Init breadcrumbs data.
         this.$store.commit('breadcrumb/setItems', {
-            name: 'tokens-trc21',
-            to: { name: 'tokens-trc21' }
+            name: 'tokens-crc21',
+            to: { name: 'tokens-crc21' }
         })
 
         this.getDataFromApi()

@@ -119,7 +119,7 @@ br.register('tokens-crc20', (brs, location) => {
     brs.parent('tokens')
     brs.push('CRC20 Token', location)
 })
-br.register('tokens-trc21', (brs, location) => {
+br.register('tokens-crc21', (brs, location) => {
     brs.parent('tokens')
     brs.push('CRC21 Token', location)
 })
