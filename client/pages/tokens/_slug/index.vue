@@ -76,7 +76,7 @@
                                             class="text-truncate">{{ token.hash }}</nuxt-link>
                                     </td>
                                 </tr>
-                                <tr v-if="token.type === 'trc20'">
+                                <tr v-if="token.type === 'crc20'">
                                     <td>Decimal</td>
                                     <td>{{ token.decimals }}</td>
                                 </tr>
@@ -145,7 +145,7 @@
                         title="Token Transfers"
                         href="#tokenTransfers">
                         <table-token-tx
-                            v-if="token.type === 'trc20'"
+                            v-if="token.type === 'crc20'"
                             :token="hash"
                             :parent="'#tokenTransfers'"
                             :page="this"/>
@@ -165,7 +165,7 @@
                         title="Token Holders"
                         href="#tokenHolders">
                         <table-token-holder
-                            v-if="token.type === 'trc20'"
+                            v-if="token.type === 'crc20'"
                             :address="hash"
                             :parent="'#tokenHolders'"
                             :page="this"/>

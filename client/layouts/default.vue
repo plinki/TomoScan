@@ -53,7 +53,7 @@
                         <b-nav-item-dropdown
                             :class="(isTokens || isTokenTxs) ? 'active' : ''"
                             text="Tokens">
-                            <b-dropdown-item :to="{name: 'tokens-trc20'}">CRC20 Tokens</b-dropdown-item>
+                            <b-dropdown-item :to="{name: 'tokens-crc20'}">CRC20 Tokens</b-dropdown-item>
                             <b-dropdown-item :to="{name: 'tokentxs'}">CRC20 Transfers</b-dropdown-item>
                             <b-dropdown-item :to="{name: 'tokens-trc21'}">CRC21 Tokens</b-dropdown-item>
                             <b-dropdown-item :to="{name: 'tokentxs-trc21'}">CRC21 Transfers</b-dropdown-item>
