@@ -162,7 +162,7 @@
                                             <td>{{ formatUnit(toTomo(tx.gasPrice * tx.gasUsed, 18)) }}</td>
                                         </tr>
                                         <tr v-if="tx.trc20Txs && tx.trc20Txs.length">
-                                            <td>TRC20 Transfer</td>
+                                            <td>CRC20 Transfer</td>
                                             <td>
                                                 <span class="token-transfer">
                                                     <p
@@ -194,7 +194,7 @@
                                                                 params: {slug: tokenTx.address}}">
                                                             &nbsp;
                                                             <span
-                                                                v-if="tokenTx.symbol">TRC20 {{ tokenTx.symbol }}</span>
+                                                                v-if="tokenTx.symbol">CRC20 {{ tokenTx.symbol }}</span>
                                                         </nuxt-link>
                                                     </p>
                                                 </span>

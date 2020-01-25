@@ -180,7 +180,7 @@
             <b-tab
                 v-if="address && address.hasTrc20"
                 id="trc20Holding"
-                title="TRC20 Holding"
+                title="CRC20 Holding"
                 href="#trc20Holding">
                 <table-tokens-by-account
                     :holder="hash"
