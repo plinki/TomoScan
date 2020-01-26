@@ -139,9 +139,9 @@ br.register('tokentxs-nft', (brs) => {
     brs.parent('index')
     brs.push('Token (CRC721) Transfers', { name: 'tokentxs-nft' })
 })
-br.register('tokentxs-trc21', (brs) => {
+br.register('tokentxs-crc21', (brs) => {
     brs.parent('index')
-    brs.push('Token (CRC21) Transfers', { name: 'tokentxs-trc21' })
+    brs.push('Token (CRC21) Transfers', { name: 'tokentxs-crc21' })
 })
 br.register('follows', (brs) => {
     brs.parent('index')

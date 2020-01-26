@@ -142,7 +142,7 @@
                                             </td>
                                         </tr>
                                         <tr v-if="tx.trc21FeeFund >= 0">
-                                            <td>TRC21 Fee Fund</td>
+                                            <td>CRC21 Fee Fund</td>
                                             <td>{{ formatUnit(toTomo(tx.trc21FeeFund, 18)) }}</td>
                                         </tr>
                                         <tr>
@@ -201,7 +201,7 @@
                                             </td>
                                         </tr>
                                         <tr v-if="tokenFee.tokenOwner">
-                                            <td>TRC21 Token Fee</td>
+                                            <td>CRC21 Token Fee</td>
                                             <td>
                                                 <nuxt-link
                                                     :to="{
@@ -223,7 +223,7 @@
                                             </td>
                                         </tr>
                                         <tr v-if="tx.trc21Txs && tx.trc21Txs.length">
-                                            <td>TRC21 Transfer</td>
+                                            <td>CRC21 Transfer</td>
                                             <td>
                                                 <span class="token-transfer">
                                                     <span
@@ -258,7 +258,7 @@
                                                                     name: 'tokens-slug',
                                                                     params: {slug: tokenTx.address}}">
                                                                 <span
-                                                                    v-if="tokenTx.symbol">TRC21 {{ tokenTx.symbol }}
+                                                                    v-if="tokenTx.symbol">CRC21 {{ tokenTx.symbol }}
                                                                 </span>
                                                             </nuxt-link>
                                                         </p>
@@ -267,7 +267,7 @@
                                             </td>
                                         </tr>
                                         <tr v-if="tx.trc721Txs && tx.trc721Txs.length">
-                                            <td>TRC721 Transfer</td>
+                                            <td>CRC721 Transfer</td>
                                             <td>
                                                 <span class="token-transfer">
                                                     <p
@@ -290,7 +290,7 @@
                                                             }"
                                                             class="hash-tag text-truncate">
                                                             {{ tokenTx.to }}</nuxt-link>
-                                                        <span class="text-secondary"> For TRC721 TokenID</span>
+                                                        <span class="text-secondary"> For CRC721 TokenID</span>
                                                         [{{ tokenTx.tokenId }}]
                                                         <nuxt-link
                                                             :to="{
