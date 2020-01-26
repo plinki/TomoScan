@@ -56,7 +56,7 @@
                             <b-dropdown-item :to="{name: 'tokens-crc20'}">CRC20 Tokens</b-dropdown-item>
                             <b-dropdown-item :to="{name: 'tokentxs'}">CRC20 Transfers</b-dropdown-item>
                             <b-dropdown-item :to="{name: 'tokens-crc21'}">CRC21 Tokens</b-dropdown-item>
-                            <b-dropdown-item :to="{name: 'tokentxs-trc21'}">CRC21 Transfers</b-dropdown-item>
+                            <b-dropdown-item :to="{name: 'tokentxs-crc21'}">CRC21 Transfers</b-dropdown-item>
                             <b-dropdown-item :to="{name: 'tokens-nft'}">CRC721 Tokens</b-dropdown-item>
                             <b-dropdown-item :to="{name: 'tokentxs-nft'}">CRC721 Transfers</b-dropdown-item>
                         </b-nav-item-dropdown>

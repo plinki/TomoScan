@@ -18,7 +18,7 @@ export default {
     },
     async mounted () {
         // Init breadcrumbs data.
-        this.$store.commit('breadcrumb/setItems', { name: 'tokentxs-trc21', to: { name: 'tokentxs-trc21' } })
+        this.$store.commit('breadcrumb/setItems', { name: 'tokentxs-crc21', to: { name: 'tokentxs-crc21' } })
     }
 }
 </script>
