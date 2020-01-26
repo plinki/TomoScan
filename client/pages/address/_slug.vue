@@ -191,7 +191,7 @@
             <b-tab
                 v-if="address && address.hasTrc21"
                 id="trc21Holding"
-                title="TRC21 Holding"
+                title="CRC21 Holding"
                 href="#trc21Holding">
                 <table-tokens-by-account
                     :holder="hash"
@@ -202,7 +202,7 @@
             <b-tab
                 v-if="address && address.hasTrc721"
                 id="trc721Inventory"
-                title="TRC721 Inventory"
+                title="CRC721 Inventory"
                 href="#trc721Inventory">
                 <table-tokens-by-account
                     :holder="hash"
