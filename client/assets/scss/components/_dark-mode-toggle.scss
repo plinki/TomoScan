@@ -119,9 +119,9 @@
 #dark-mode-checkbox:checked + .toggle-switch:before {
     content: '\e90e';
     left: 30px;
-    background-color: #678be0;
+    background-color: #ADCD94;
 }
 
 #dark-mode-checkbox:checked ~ .toggle-bg {
-    background-color: #1d1e31;
+    background-color: #222a28;
 }

@@ -7,7 +7,7 @@ $color-text-white-dark: #868f9b;
 // Global Settings
 body.dark-mode {
     color: $color-text-dark;
-    background-color: #1d1e31;
+    background-color: #222a28;
 
     a {
         color: $color-primary-dark;
@@ -26,7 +26,7 @@ body.dark-mode {
     }
 
     .text-muted {
-        color: #505078 !important;
+        color: #E8E5C0 !important;
     }
 }
 
@@ -63,26 +63,26 @@ body.dark-mode {
 body.dark-mode {
 
     .form-control {
-        color: #B5CC98;
+        color: #ddd9a1;
         border-color: #323251;
-        background-color: #323251;
+        background-color: #2d3936;
 
         &:focus {
-            color: #60706C;
+            color: #e8e5c0;
             border-color: #2e2e4b;
-            background-color: #2e2e4b;
+            background-color: #445551;
         }
 
         &::-webkit-input-placeholder {
-            color: #505078;
+            color: #d0ca7c;
         }
 
         &:-moz-placeholder {
-            color: #505078;
+            color: #d0ca7c;
         }
 
         &:-ms-input-placeholder {
-            color: #505078;
+            color: #d0ca7c;
         }
 
     }
@@ -90,7 +90,7 @@ body.dark-mode {
 
 // Header
 body.dark-mode .tomo-nav {
-    background-image: linear-gradient(-135deg,#373658,#40406a);
+    background-image: linear-gradient(-135deg, #394743, #445551); 
 
     .nav-item {
         &.active .nav-link,
@@ -100,7 +100,7 @@ body.dark-mode .tomo-nav {
     }
 
     .nav-item .nav-link {
-        color: #aca9c4;
+        color: #E8E5C0;
 
         &.active,
         &:hover {
@@ -161,7 +161,8 @@ body.dark-mode .search-form {
     .form-control.search-form__input {
 
         &::placeholder {
-            color: #505078 !important;
+            color: #d6d28f !important;
+	    opacity: 0.6;
         }
     }
 }
@@ -262,7 +263,7 @@ body.dark-mode .tomo-footer  {
         color: $color-text-dark-alt;
 
         &:hover {
-            color: $color-text-white-dark;
+            color: #b5cc98;
         }
     }
 
