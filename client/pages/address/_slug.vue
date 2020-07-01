@@ -33,13 +33,13 @@
                             </td>
                         </tr>
                         <tr>
-                            <td>TOMO Balance</td>
+                            <td>CHAN Balance</td>
                             <td>
                                 <span>{{ formatUnit(toTomo(address.balance, 18)) }}</span>
                             </td>
                         </tr>
                         <tr>
-                            <td>TOMO USD Value</td>
+                            <td>CHAN USD Value</td>
                             <td>
                                 <span>{{ formatNumber(usdPrice * toTomoNumber(address.balance)) }} (price from
                                     <a
