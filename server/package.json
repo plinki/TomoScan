@@ -84,6 +84,6 @@
     "inquirer": "^6.2.0",
     "mixin-deep": "^2.0.1",
     "nodemon": "^1.9.2",
-    "set-value": "^3.0.1"
+    "set-value": "^4.0.1"
   }
 }
